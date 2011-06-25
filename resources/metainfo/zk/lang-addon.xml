@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<language-addon>
+	<addon-name>recaptcha</addon-name> <!-- required -->
+
+ 	<version>
+		<version-class>org.zkoss.recaptcha.Version</version-class>
+		<version-uid>0.8.0</version-uid>
+		<zk-version>5.0.0</zk-version><!-- or later -->
+	</version>
+
+	<language-name>xul/html</language-name>
+	<component>
+		<component-name>recaptcha</component-name> <!-- required -->
+		<component-class>org.zkoss.recaptcha.Recaptcha</component-class> <!-- required -->
+		<widget-class>zul.recaptcha.Recaptcha</widget-class> <!-- required -->
+		<mold>
+			<mold-name>default</mold-name>
+			<mold-uri>mold/recaptcha.js</mold-uri>
+		</mold>
+	</component>
+</language-addon>

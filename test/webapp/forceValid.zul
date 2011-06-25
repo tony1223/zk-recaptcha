@@ -1,0 +1,21 @@
+<zk>
+
+	
+	<vlayout>
+		<div>
+			<label value="name" /> <textbox id="test" />
+		</div>
+		<recaptcha id="captcha" forceValid="true" />
+		
+		<button label="check" >
+			<attribute name="onClick">
+				if(captcha.isValid()){
+					alert(test.getValue());
+				}else{
+					alert("captcha failed");
+				}
+			</attribute>
+		</button>
+	</vlayout>
+	
+</zk>

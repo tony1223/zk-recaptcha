@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  This file is under LGPL license , 
+  created 2011/6/24 19:30  TonyQ 
+ -->
+<package name="zul.recaptcha" language="xul/html">
+	<widget name="Recaptcha" />
+</package>
